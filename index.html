@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAS LAB</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="JAS LAB Logo" class="logo">
+                <div class="lab-name">
+                    <h1>JAS LAB</h1>
+                </div>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#team">People</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider" id="home">
+        <div class="slider-container">
+            <div class="slide active" style="background-image: url('images/slider-1.png')">
+                <div class="slide-content">
+                    <h2>Welcome to the JAS Lab</h2>
+                    <p>at University of Texas- Rio Grande Valley</p>
+                    <a href="#about" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/slider-2.png')">
+                <div class="slide-content">
+                    <h2>Advanced Laboratory Facilities</h2>
+                    <p>State-of-the-art equipment and technology to support groundbreaking research across multiple disciplines.</p>
+                    <a href="#research" class="btn">Our Research</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/slider-3.png')">
+                <div class="slide-content">
+                    <h2>Collaborative Research Environment</h2>
+                    <p>Working together with industry partners and academic institutions to solve complex scientific problems.</p>
+                    <a href="#team" class="btn">Meet Our People</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/slider-4.png')">
+                <div class="slide-content">
+                    <h2>Publishing Groundbreaking Research</h2>
+                    <p>Our work has been featured in top scientific journals and has led to numerous patents and innovations.</p>
+                    <a href="#publications" class="btn">View Publications</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slider-nav">
+            <div class="slider-dot active" data-slide="0"></div>
+            <div class="slider-dot" data-slide="1"></div>
+            <div class="slider-dot" data-slide="2"></div>
+            <div class="slider-dot" data-slide="3"></div>
+        </div>
+        
+        <div class="slider-arrows">
+            <div class="slider-arrow prev">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="slider-arrow next">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About</h2>
+                <p>We are dedicated to pushing the boundaries of scientific knowledge and developing innovative solutions.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Advancing Scientific Discovery</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod, justo vitae convallis dictum, nisl nunc commodo urna, vitae luctus augue at sapien.</p>
+                    <p>Phasellus sit amet sapien vitae odio vulputate dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec et lectus nec velit facilisis commodo.</p>
+                    <p>Sed euismod, mauris ut aliquet tincidunt, lorem erat facilisis nunc, non tincidunt orci neque a augue. Curabitur efficitur ligula et sapien gravida, a luctus sapien fermentum.</p>
+                </div>
+                <!-- <div class="about-image">
+                    <img src="images/about-lab.jpg" alt="Lab Equipment">
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Areas -->
+    <section class="section research-areas" id="research">
+        <div class="container">
+            <div class="section-title">
+                <h2>Research Areas</h2>
+                <p>Our lab focuses on several key research domains that address critical scientific challenges.</p>
+            </div>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="research-content">
+                        <h3>Genomics & Biotechnology</h3>
+                        <p>Exploring the genetic basis of diseases and developing novel biotechnological solutions for healthcare and agriculture.</p>
+                    </div>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <div class="research-content">
+                        <h3>Materials Science</h3>
+                        <p>Designing and synthesizing advanced materials with unique properties for energy, electronics, and medical applications.</p>
+                    </div>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="research-content">
+                        <h3>Computational Biology</h3>
+                        <p>Using computational models and AI to understand complex biological systems and predict molecular interactions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our People</h2>
+                <p>Meet the dedicated researchers and scientists driving innovation in our lab.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-1.jpg" alt="Dr. Sarah Johnson">
+                    </div>
+                    <div class="member-info">
+                        <h3>Dr. Sarah Johnson</h3>
+                        <p>Principal Investigator</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-2.jpg" alt="Dr. Michael Chen">
+                    </div>
+                    <div class="member-info">
+                        <h3>Dr. Michael Chen</h3>
+                        <p>Senior Research Scientist</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-3.jpg" alt="Dr. Elena Rodriguez">
+                    </div>
+                    <div class="member-info">
+                        <h3>Dr. Elena Rodriguez</h3>
+                        <p>Postdoctoral Fellow</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/team-4.jpg" alt="Dr. James Wilson">
+                    </div>
+                    <div class="member-info">
+                        <h3>Dr. James Wilson</h3>
+                        <p>Research Associate</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section class="section publications" id="publications">
+        <div class="container">
+            <div class="section-title">
+                <h2>Recent Publications</h2>
+                <p>Explore our latest research findings and scientific contributions.</p>
+            </div>
+            <div class="publication-list">
+                <div class="publication-item">
+                    <h3>Novel Approach to Targeted Drug Delivery Using Nanoparticles</h3>
+                    <p class="publication-meta">Nature Nanotechnology, 2023</p>
+                    <p>Our team developed a new method for targeted drug delivery that increases efficacy while reducing side effects.</p>
+                </div>
+                <div class="publication-item">
+                    <h3>Machine Learning Models for Predicting Protein Folding</h3>
+                    <p class="publication-meta">Science, 2023</p>
+                    <p>We created advanced ML algorithms that accurately predict protein folding patterns, accelerating drug discovery.</p>
+                </div>
+                <div class="publication-item">
+                    <h3>Sustainable Synthesis of Biodegradable Polymers</h3>
+                    <p class="publication-meta">Advanced Materials, 2022</p>
+                    <p>Our research presents an environmentally friendly method for producing biodegradable polymers with enhanced properties.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Lab Gallery</h2>
+                <p>Explore photos from our recent events, experiments, and lab activities</p>
+            </div>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="experiments">Experiments</button>
+                <button class="filter-btn" data-filter="team">Team</button>
+                <button class="filter-btn" data-filter="facilities">Facilities</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="events">
+                    <img src="images/gallery-1.jpg" alt="Research Symposium">
+                    <div class="gallery-overlay">
+                        <h3>Annual Research Symposium</h3>
+                        <p>Our team presenting at the international research conference</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="experiments">
+                    <img src="images/gallery-2.jpg" alt="Lab Experiment">
+                    <div class="gallery-overlay">
+                        <h3>Advanced Materials Testing</h3>
+                        <p>Testing new polymer composites under extreme conditions</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="team">
+                    <img src="images/gallery-3.jpg" alt="Team Meeting">
+                    <div class="gallery-overlay">
+                        <h3>Weekly Research Meeting</h3>
+                        <p>Discussing progress and planning next experiments</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="facilities">
+                    <img src="images/gallery-4.jpg" alt="Lab Equipment">
+                    <div class="gallery-overlay">
+                        <h3>Advanced Microscopy Lab</h3>
+                        <p>Our state-of-the-art electron microscopy facility</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="events">
+                    <img src="images/gallery-5.jpg" alt="Award Ceremony">
+                    <div class="gallery-overlay">
+                        <h3>Research Excellence Award</h3>
+                        <p>Dr. Johnson receiving the prestigious research award</p>
+                    </div>
+                </div>
+                
+                <!-- <div class="gallery-item" data-category="experiments">
+                    <img src="images/gallery-6.jpg" alt="DNA Analysis">
+                    <div class="gallery-overlay">
+                        <h3>Genomic Sequencing</h3>
+                        <p>Processing DNA samples for our latest genomics study</p>
+                    </div>
+                </div> -->
+                
+                <!-- <div class="gallery-item" data-category="team">
+                    <img src="images/gallery-7.jpg" alt="Collaboration">
+                    <div class="gallery-overlay">
+                        <h3>International Collaboration</h3>
+                        <p>Working with researchers from partner institutions</p>
+                    </div>
+                </div> -->
+                
+                <!-- <div class="gallery-item" data-category="facilities">
+                    <img src="images/gallery-8.jpg" alt="Clean Room">
+                    <div class="gallery-overlay">
+                        <h3>Class 100 Clean Room</h3>
+                        <p>Our specialized facility for sensitive experiments</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our research team for collaborations or inquiries.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>JAS Lab <br> Room no. 101 <br> Health and biomedical sciences UTRGV <br> Brownsville, Texas, USA</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>info@jaslab.org</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>JAS LAB</h3>
+                    <p>Pushing the boundaries of scientific discovery to create a better future for all.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Research Areas</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Genomics</a></li>
+                        <li><a href="#">Materials Science</a></li>
+                        <li><a href="#">Computational Biology</a></li>
+                        <li><a href="#">Biotechnology</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect With Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="#"><i class="fab fa-researchgate"></i> ResearchGate</a></li>
+                        <li><a href="#"><i class="fab fa-google-scholar"></i> Google Scholar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 JAS LAB. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
