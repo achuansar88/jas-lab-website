@@ -550,6 +550,7 @@ nav ul li a:hover {
 .contact-container {
     display: flex;
     gap: 50px;
+    overflow: auto;
 }
 
 .contact-info {
