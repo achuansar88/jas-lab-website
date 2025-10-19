@@ -289,7 +289,7 @@ class SmallSlider {
     }
     
     startSlideShow() {
-        this.slideInterval = setInterval(() => this.nextSlide(), 4000);
+        this.slideInterval = setInterval(() => this.nextSlide(), 8000);
     }
     
     pause() {
